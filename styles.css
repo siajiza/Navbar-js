@@ -93,6 +93,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-right: 50px;
     width: auto;
     height: auto;
     flex: 3;
