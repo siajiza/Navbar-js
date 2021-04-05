@@ -6,6 +6,7 @@
 
 @media (max-width: 700px) {
 
+
     .navbar .left,
     .navbar .right {
         display: none;
@@ -35,7 +36,7 @@
 
     /*Js*/
     
-    .navbar .active .toggle {
+    /* .navbar .active .toggle {
         display: inline-block;
         background-color: mediumaquamarine;
         color: thistle;
@@ -43,6 +44,19 @@
 
     .navbar .left .link:active {
         display: block;        
+    } */
+
+    .navbar.active {
+        display: block;
+    }
+
+    .active .left {
+        display: block;
+    }
+
+    .active .right {
+        display: block;
+        margin-right: 0px;
     }
 }
 

@@ -65,8 +65,10 @@
 
 <script>
     const navHamburger = document.getElementById('navHamburger');
-    navHamburger.addEventListener('click', (e) => {
-        navHamburger.parentElement.classList.toggle('active');
+
+    navHamburger.addEventListener('click', () => {
+        console.dir(navHamburger.parentElement)
+        navHamburger.parentElement.parentElement.classList.toggle('active');
     })
 </script>
 
