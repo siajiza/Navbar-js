@@ -1,0 +1,99 @@
+/*common styles*/
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 65%;
+    background-color: antiquewhite;
+    box-sizing: inherit;
+}
+
+/*behavior and main content on the navbar*/
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    height: auto;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    background-color: mediumaquamarine;
+    color: white;
+    width: auto;
+    height: auto;
+}
+
+.navbar .link:hover,
+.navbar .link:active {
+    color: teal;
+    background-color: thistle;
+}
+
+.navbar .toggle {
+    padding: 1em;
+    color: black;
+}
+
+/*LOGO*/
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    flex: 1;
+}
+
+.navbar .brand {
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 1em;
+    color: rgb(100, 15, 100);
+}
+
+/*links on the left*/
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    flex: 2;
+}
+
+
+/*links on the right*/
+.right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: auto;
+    height: auto;
+    flex: 3;
+}
+
+

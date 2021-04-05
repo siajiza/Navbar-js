@@ -1,0 +1,43 @@
+@media (min-width: 700px) {
+    
+    .navbar .toggle {
+        display: none;
+
+    }
+
+}
+
+
+@media (max-width: 700px) {
+
+    .navbar .active .toggle {
+        background-color: mediumaquamarine;
+        color: thistle;
+    }
+
+    .navbar .active div {
+        display: block;
+    }
+    
+    .navbar .brand {
+        text-align: right;
+        width: -webkit-fill-available;
+        height: auto;
+        padding: 1em;
+        color: rgb(100, 15, 100);
+        
+    }
+
+    .navbar .left,
+    .navbar .right {
+        display: none;
+    
+    }
+
+    .navbar .link {
+        width: auto;
+        height: auto;
+    }
+
+
+}
