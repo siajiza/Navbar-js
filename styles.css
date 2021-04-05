@@ -26,6 +26,8 @@ body {
     align-items: center;
     background-color: lightblue;
     height: auto;
+    position: fixed;
+
 }
 
 .navbar a {
@@ -96,4 +98,16 @@ body {
     flex: 3;
 }
 
-
+/*content*/
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    width: auto;
+}
+ 
+.content div {
+    margin: 50px 0;
+}

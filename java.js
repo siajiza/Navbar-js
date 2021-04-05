@@ -1,6 +1,6 @@
 const navHamburger = document.querySelector('#navHamburger');
 
-    navHamburger.addEventListener('click', (e) => {
+    navHamburger.addEventListener('click', () => {
 
         navHamburger.parentElement.classList.toggle('active');
 })
