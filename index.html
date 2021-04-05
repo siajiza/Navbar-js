@@ -61,9 +61,13 @@
         </div>
     </div>
 
-    <script src="./java.js"></script>
-
 </body>
 
+<script>
+    const navHamburger = document.getElementById('navHamburger');
+    navHamburger.addEventListener('click', (e) => {
+        navHamburger.parentElement.classList.toggle('active');
+    })
+</script>
 
 </html>

@@ -29,15 +29,21 @@
         color: rgb(100, 15, 100);
     }
 
+    .navbar .toggle {
+        display: inline-block;
+    }
+
     /*Js*/
     
     .navbar .active .toggle {
+        display: inline-block;
         background-color: mediumaquamarine;
         color: thistle;
     }
 
-    .navbar .active link {
-        display: block;
-        
+    .navbar .left .link:active {
+        display: block;        
     }
 }
+
+
